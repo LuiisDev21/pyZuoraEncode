@@ -57,6 +57,8 @@ pip install pycryptodome
 
 ## Authors
 
+<div style="display: flex; gap: 20px; align-items: center;">
+
 <div>
     <img src="https://avatars.githubusercontent.com/u/94748860?v=4" alt="MrXetwy21' Avatar" width="100" height="100" style="border-radius: 50%;">
     <h3>MrXetwy21</h3>
@@ -67,11 +69,7 @@ pip install pycryptodome
     <a href="https://t.me/Xetwy">
         <img src="https://img.shields.io/badge/Telegram-Chat-0088cc?logo=telegram&logoColor=white" alt="Telegram">
     </a>
-
 </div>
-    <br>
-    <br>
-    <br>
 <div>
     <img src="https://avatars.githubusercontent.com/u/159650522?v=4" alt="Maria's Avatar" width="100" height="100" style="border-radius: 50%;">
     <h3>Taiinyy</h3>
@@ -79,7 +77,9 @@ pip install pycryptodome
         <img src="https://img.shields.io/badge/GitHub-Taiinyy-181717?logo=github&logoColor=white" alt="GitHub">
     </a>
     <br>
-    <a href="https://t.me/Maria">
+    <a href="https://t.me/zSnoww">
         <img src="https://img.shields.io/badge/Telegram-Chat-0088cc?logo=telegram&logoColor=white" alt="Telegram">
     </a>
+</div>
+
 </div>
