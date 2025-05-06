@@ -7,7 +7,7 @@
 You can install the library by cloning this repository and using pip:
 
 ```sh
-pip install pyZuoraEncode
+pip install -U pyZuoraEncode
 ```
 
 
@@ -60,7 +60,7 @@ Taiinyy & MrXetwy21
 Puedes instalar la librería clonando este repositorio y usando pip:
 
 ```sh
-pip install pyZuoraEncode
+pip install -U pyZuoraEncode
 ```
 
 

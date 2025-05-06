@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 if __name__ == '__main__':
 
     setup(
-        name='pyZuoraEncode',
+        name='pyzuoraencode',
         description='A Python library for encrypt CreditCard data for Zuora Payment Gateway',
         keywords='zuora, encrypt, creditcard, payment, gateway, zuoraencrypt, zuorapayment',
         license='MIT',
