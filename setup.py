@@ -12,7 +12,7 @@ if __name__ == '__main__':
         author='Taiinyy & MrXetwy21',
         author_email='Xetwy21@gmail.com',
         packages=find_packages(),
-        include_package_data=True,
+        # include_package_data=True,
         long_description=open('README.md', encoding='utf-8').read(),
         long_description_content_type='text/markdown',
         classifiers=[
