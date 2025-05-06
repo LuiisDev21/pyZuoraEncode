@@ -1,4 +1,4 @@
-![Image](https://companieslogo.com/img/orig/ZUO_BIG.D-cc95a659.png?t=1720244494)
+![Image](https://companieslogo.com/img/orig/ZUO_BIG-16a6d064.png?t=1720244494)
 # <p align="center">PyZouraEncode</p>
  
 `pyZuoraEncode` is a Python library for encrypting card  data using RSA public keys, ideal for integrations with Zuora or other systems that require secure data transmission.
