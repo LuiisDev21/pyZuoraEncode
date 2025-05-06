@@ -1,15 +1,21 @@
-# pyZuoraEncode
+![Image](https://companieslogo.com/img/orig/ZUO_BIG.D-cc95a659.png?t=1720244494)
+# <p align="center">PyZouraEncode</p>
+ 
+`pyZuoraEncode` is a Python library for encrypting card  data using RSA public keys, ideal for integrations with Zuora or other systems that require secure data transmission.
 
-`pyZuoraEncode` is a Python library for encrypting data using RSA public keys, ideal for integrations with Zuora or other systems that require secure data transmission.
+
+[![Python](https://img.shields.io/badge/Python-3.10.5-yellow.svg?logo=python&logoColor=white)](https://www.python.org/downloads/release/python-3105/) 
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
+----------
 
 ## Installation
 
-You can install the library by cloning this repository and using pip:
+##### You can install the library using pip:
 
 ```sh
 pip install -U pyZuoraEncode
 ```
-
 
 
 ## Usage
@@ -27,76 +33,53 @@ Card = "4242424242424242|12|2030|025"
 Card_Encrypted = zuora.encrypt(data)
 
 print(Card_Encrypted)
+# Result: Ohyqa+uLuEKUYhfVTtGESLYLS6...
 ```
 
-## Main Methods
 
-- `ZuoraEncrypt(public_key=None)`: Initializes the object with an optional public key.
-- `set_key(public_key)`: Sets or changes the public key.
-- `encrypt(data)`: Encrypts a string and returns the result in base64.
+## Main Methods 
+| Method                        | Description                                         |
+|------------------------------|-----------------------------------------------------|
+| ZuoraEncrypt(public_key=`None`) | Initializes the object with an optional public key.  |
+| set_key(public_key)           | Sets or changes the public key.                      |
+| encrypt(data)                 | Encrypts a string and returns the result in base64.  |
 
-## Requirements
 
-- Python >= 3.10
-- pycryptodome
 
-## License
+## Requierements ![Python Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/20px-Python-logo-notext.svg.png)
 
-MIT
-
-## Author
-
-Taiinyy & MrXetwy21  
-[Original repository](https://github.com/MrXetwy21/XetMap)
-
----
-
-# pyZuoraEncode
-
-`pyZuoraEncode` es una librería de Python que permite cifrar datos utilizando claves públicas RSA, ideal para integraciones con Zuora u otros sistemas que requieran transmisión segura de información.
-
-## Instalación
-
-Puedes instalar la librería clonando este repositorio y usando pip:
+#### • Python 3.6 or higher
+#### • PyCriptoDome:
 
 ```sh
-pip install -U pyZuoraEncode
+pip install pycryptodome
 ```
 
+## Authors
 
+<div>
+    <img src="https://avatars.githubusercontent.com/u/94748860?v=4" alt="MrXetwy21' Avatar" width="100" height="100" style="border-radius: 50%;">
+    <h3>MrXetwy21</h3>
+    <a href="https://github.com/MrXetwy21">
+        <img src="https://img.shields.io/badge/GitHub-MrXetwy21-181717?logo=github&logoColor=white" alt="GitHub">
+    </a>
+    <br>
+    <a href="https://t.me/Xetwy">
+        <img src="https://img.shields.io/badge/Telegram-Chat-0088cc?logo=telegram&logoColor=white" alt="Telegram">
+    </a>
 
-## Uso
-
-```python
-from pyZuoraEncode import ZuoraEncrypt
-
-# Inicializa una clave pública (No es la misma en todos los sitios)
-public_key = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAld9m3u5AUMAxgbU9sPgzU3rDWVnxpKgpvJPQG5hVZULIxtdaBmRO8zD1WvzeZrj5dFsY4ohipCDS52kszz2w4Ex/p4fGkJh7+1yEp1HvSO9wx1f2p+JVIEdyTH7RtpX2RdejXurukHmZkb/++579ewXVNYMu5Ak152CqppyyaT/V1wus+s9966715Jlf1mTDLh5Lu4pugGoUnZfgIWwB7gVJJoHGJizSlIb1Mw7OQZtYAQjuaYlxXZPghAFIXLwP4XC5QSlK1/P2Rqh7OSuNbC6aNowgf5nUqqsjl8iz5Jhjja4hIqxmO20ilXdhT2y2awevWR10F8cvFkOWYB380QIDAQAB"  
-
-zuora = ZuoraEncrypt(public_key)
-
-# Encryptar la tarjeta
-data = "4242424242424242|12|2030|026"
-encrypted = zuora.encrypt(data)
-print(encrypted)
-```
-
-## Métodos principales
-
-- `ZuoraEncrypt(public_key=None)`: Inicializa el objeto con una clave pública opcional.
-- `set_key(public_key)`: Establece o cambia la clave pública.
-- `encrypt(data)`: Cifra una cadena de texto y retorna el resultado en base64.
-
-## Requisitos
-
-- Python >= 3.10
-- pycryptodome
-
-## Licencia
-
-MIT
-
-## Autor
-
-Taiinyy & MrXetwy21  
-[Repositorio original](https://github.com/MrXetwy21/pyZouraEncode)
+</div>
+    <br>
+    <br>
+    <br>
+<div>
+    <img src="https://avatars.githubusercontent.com/u/159650522?v=4" alt="Maria's Avatar" width="100" height="100" style="border-radius: 50%;">
+    <h3>Taiinyy</h3>
+    <a href="https://github.com/Taiinyy">
+        <img src="https://img.shields.io/badge/GitHub-Taiinyy-181717?logo=github&logoColor=white" alt="GitHub">
+    </a>
+    <br>
+    <a href="https://t.me/Maria">
+        <img src="https://img.shields.io/badge/Telegram-Chat-0088cc?logo=telegram&logoColor=white" alt="Telegram">
+    </a>
+</div>
