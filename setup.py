@@ -3,12 +3,12 @@ from setuptools import setup, find_packages
 if __name__ == '__main__':
 
     setup(
-        name='pyzuoraencode',
+        name='pyZuoraEncode',
         description='A Python library for encrypt CreditCard data for Zuora Payment Gateway',
         keywords='zuora, encrypt, creditcard, payment, gateway, zuoraencrypt, zuorapayment',
         license='MIT',
         url='https://github.com/MrXetwy21/pyZuoraEncode',
-        version='1.0',
+        version='1.1',
         author='Taiinyy & MrXetwy21',
         author_email='Xetwy21@gmail.com',
         packages=find_packages(),
