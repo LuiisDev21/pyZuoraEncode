@@ -1,1 +1,1 @@
-from .encrypt import *
+from .encrypt import ZuoraEncrypt
