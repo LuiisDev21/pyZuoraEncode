@@ -30,7 +30,7 @@ zuora = ZuoraEncrypt(public_key)
 
 # Encrypt data
 Card = "4242424242424242|12|2030|025"
-Card_Encrypted = zuora.encrypt(data)
+Card_Encrypted = zuora.encrypt(Card)
 
 print(Card_Encrypted)
 # Result: Ohyqa+uLuEKUYhfVTtGESLYLS6...
