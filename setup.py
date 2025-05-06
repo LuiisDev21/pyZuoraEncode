@@ -8,7 +8,7 @@ if __name__ == '__main__':
         keywords='zuora, encrypt, creditcard, payment, gateway, zuoraencrypt, zuorapayment',
         license='MIT',
         url='https://github.com/MrXetwy21/pyZuoraEncode',
-        version='1.1',
+        version='1.1.2',
         author='Taiinyy & MrXetwy21',
         author_email='Xetwy21@gmail.com',
         packages=find_packages(),
