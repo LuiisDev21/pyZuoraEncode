@@ -70,6 +70,9 @@ pip install pycryptodome
         <img src="https://img.shields.io/badge/Telegram-Chat-0088cc?logo=telegram&logoColor=white" alt="Telegram">
     </a>
 </div>
+    <br>
+    <br>
+    <br>
 <div>
     <img src="https://avatars.githubusercontent.com/u/159650522?v=4" alt="Maria's Avatar" width="100" height="100" style="border-radius: 50%;">
     <h3>Taiinyy</h3>
