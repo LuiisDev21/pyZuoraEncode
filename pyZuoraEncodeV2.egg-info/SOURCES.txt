@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pyZuoraEncode/__init__.py
+pyZuoraEncode/functions.py
+pyZuoraEncodeV2.egg-info/PKG-INFO
+pyZuoraEncodeV2.egg-info/SOURCES.txt
+pyZuoraEncodeV2.egg-info/dependency_links.txt
+pyZuoraEncodeV2.egg-info/requires.txt
+pyZuoraEncodeV2.egg-info/top_level.txt

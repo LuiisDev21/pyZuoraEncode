@@ -1,3 +1,27 @@
+Metadata-Version: 2.1
+Name: pyZuoraEncodeV2
+Version: 1.1
+Summary: A Python library for encrypt CreditCard data for Zuora Payment Gateway
+Home-page: https://github.com/LuiisDev21/pyZuoraEncode
+Author: LuiisDev21
+Author-email: Xetwy21@gmail.com
+License: MIT
+Keywords: zuora,encrypt,creditcard,payment,gateway,zuoraencrypt,zuorapayment
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
 ![Image](https://companieslogo.com/img/orig/ZUO_BIG-16a6d064.png?t=1720244494)
 # <p align="center">PyZouraEncode</p>
  
@@ -54,3 +78,5 @@ print(Card_Encrypted)
 ```sh
 pip install pycryptodome
 ```
+
+
