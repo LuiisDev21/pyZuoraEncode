@@ -7,6 +7,7 @@
 [![Python](https://img.shields.io/badge/Python-3.10.5-yellow.svg?logo=python&logoColor=white)](https://www.python.org/downloads/release/python-3105/) 
 [![License](https://img.shields.io/badge/License-GPL-green.svg)](https://opensource.org/licenses/GPL)
 [![PyPi](https://img.shields.io/badge/PyPi-View_Package-blue.svg?logo=python&logoColor=white)](https://pypi.org/project/pyZuoraEncodeV2/) 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/LuiisDev21/pyZuoraEncode)
 ----------
 
 ## Installation
